@@ -1,8 +1,16 @@
 # StealthTerminal
 
+**[Live Demo](https://private-alpha-three.vercel.app)** | [SolRouter Docs](https://solrouter.com/docs) | [@SolRouterAI](https://x.com/SolRouterAI)
+
 Encrypted AI trading research terminal for Solana. Built on [SolRouter](https://solrouter.com) with Arcium RescueCipher encryption and TEE-isolated inference.
 
 When you ask an AI about a token, that query normally sits on a server in plain text. The provider knows what you're looking at before you trade. StealthTerminal encrypts your prompts client-side, processes them inside a Trusted Execution Environment, and returns encrypted results. The backend can't read your questions.
+
+## Demo
+
+[Watch the 30s demo video](https://github.com/lilacchio/stealth-terminal/releases/download/v1.0.0/demo.mp4) | [Try it live](https://private-alpha-three.vercel.app)
+
+https://private-alpha-three.vercel.app/demo.mp4
 
 ## Screenshots
 
@@ -79,7 +87,7 @@ This applies to every feature: token analysis, swap decisions, portfolio scannin
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/stealth-terminal.git
+git clone https://github.com/lilacchio/stealth-terminal.git
 cd stealth-terminal
 npm install
 npm run dev
@@ -124,7 +132,9 @@ src/
 
 ## Deploy
 
-Works on Vercel out of the box:
+Live at **https://private-alpha-three.vercel.app**
+
+To deploy your own:
 
 ```bash
 npm run build   # verify locally
@@ -135,6 +145,7 @@ No server-side secrets needed. All API keys are user-provided through the UI.
 
 ## Links
 
+- **[Live Demo](https://private-alpha-three.vercel.app)**
 - [SolRouter](https://solrouter.com) | [Docs](https://solrouter.com/docs)
 - [Jupiter](https://jup.ag) | [DexScreener](https://dexscreener.com)
 - [@SolRouterAI](https://x.com/SolRouterAI)
